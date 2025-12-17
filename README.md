@@ -27,7 +27,8 @@ Wrong Inputs were either rectified or deleted
 It is a large dataset with several columns. some of these columns were removed because they have no use in this project and it improves the performance of the report
 - Make sure all columns have the correct data types
 
-### Transforming the dataset ![](images/PowerQuery.png)
+![](images/PowerQuery.png)
+### Transforming the dataset
 
 ### Now that the data has been prepared, it was time to save the changes made and explore the data!
 
@@ -54,8 +55,8 @@ According to the chart, The top 5 Churn Reasons are:
 
 In Summary, Databel lost customers mostly due to their competitors having superior value proposition. They offer better and more attractive services to customers. Another major churn reason is the inadequate attitude of support employees. Customers feel discouraged to use Databel's support services because of how badly they have been treated while contacting the support team.
 
-### Churn Reasons ![](images/ChurnReasons.png)
-
+ ![](images/ChurnReasons.png)
+### Churn Reasons
 
 
 

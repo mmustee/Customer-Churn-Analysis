@@ -62,7 +62,7 @@ In Summary, Databel lost customers mostly due to their competitors having superi
 
 ### Churn Rate Nationwide
 
-Databel has approximately 7000 customers living in different parts of the world with most of them living in the United States. Location could be a factor that influences Churn Rate so the aim of the following chart is to display Churn rates by the different states in the United States in a map chart. The bubble sizes represent the size of churned customers in each state. Different shades of green represent low churn rate and red represents churn rates of above 50%.  According to the map chart, the state of California has the highest churn rate of 63$.
+Databel has approximately 7000 customers living in different parts of the world with most of them living in the United States. Location could be a factor that influences Churn Rate so the aim of the following chart is to display Churn rates by the different states in the United States in a map chart. The bubble sizes represent the size of churned customers in each state. Different shades of green represent low churn rate and red represents churn rates of above 50%.  According to the map chart, the state of California has the highest churn rate of 63%.
 
 ![](images/Map.png)
 

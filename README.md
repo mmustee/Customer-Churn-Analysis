@@ -34,7 +34,7 @@ It is a large dataset with several columns. some of these columns were removed b
 Despite completing the preparation process, I still wanted to make sure the number of customers were unique. There should only be one distinct customer per row. To do this, I created a measure to calculate the distinct number of customers to compare with another measure that counts the number of customers. i.e Number of Unique Customers = DISTINCTCOUNT('Databel - Data'[Customer ID]). Fortunately, both measures were exactly the same so I was good to go!
 
 ## Churn Demographics page
-The first page of the report is the CHurn Dempographics page.
+The first page of the report is the Churn Dempographics page.
 
 ### Calculating Churn Rate
 
@@ -43,6 +43,7 @@ With this DAX formula, I was able to get the total churn rate i.e
    ### Churn Rate = Number of Churned Customers / Number of Customers
 
 According to the calculation, the churn rate is **26.86%**. In other words, For every 100 customers, 27 customers churn. *Is that great? NO, but is it terrible? Well, let's explore the data further to know why customers are churning*. Whilst 27% might not look like much, that is nearly a third of Databel's customers churning. In that context, it looks bad. so why are the customers churning?
+
 
 ### Reasons Why Customers Churn
 
@@ -58,6 +59,12 @@ According to the chart, The top 5 Churn Reasons are:
 In Summary, Databel lost customers mostly due to their competitors having superior value proposition. They offer better and more attractive services to customers. Another major churn reason is the inadequate attitude of support employees. Customers feel discouraged to use Databel's support services because of how badly they have been treated while contacting the support team.
 
 ![](images/ChurnReasons.png)
+
+### Churn Rate Nationwide
+
+Databel has approximately 7000 customers living in different parts of the world with most of them living in the United States. Location could be a factor that influences Churn Rate so the aim of the following chart is to display Churn rates by the different states in the United States in a map chart. The bubble sizes represent the size of churned customers in each state. Different shades of green represent low churn rate and red represents churn rates of above 50%.  According to the map chart, the state of California has the highest churn rate of 63$.
+
+![](images/Map.png)
 
 ## Customers by Age and Churn Rate
 

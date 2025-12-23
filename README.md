@@ -57,11 +57,18 @@ According to the chart, The top 5 Churn Reasons are:
 
 In Summary, Databel lost customers mostly due to their competitors having superior value proposition. They offer better and more attractive services to customers. Another major churn reason is the inadequate attitude of support employees. Customers feel discouraged to use Databel's support services because of how badly they have been treated while contacting the support team.
 
- ![](images/ChurnReasons.png)
+![](images/ChurnReasons.png)
 
 ## Customers by Age and Churn Rate
 
-In order to display the trend(if any) betweem Customers, Age and the churn rate. Firstly, the ages are grouped into bins with intervals of 5 before being added to the chart. Overall, the chart shows a positive correlation between the Age of the customer nad the churn rate. This means that the older the customer, the higher the churn rate. This trend is displayed from Age !5 to 70.
+In order to display the trend(if any) betweem Customers, Age and the churn rate. Firstly, the ages are grouped into bins with intervals of 5 before being added to the chart. Overall, the chart shows a positive correlation between the Age of the customer nad the churn rate. This means that the older the customer, the higher the churn rate. This trend is displayed from Age 15 to 70.
 
- ![](images/Agebins.png)
+![](images/Agebins.png)
+
+### Groups and Categories
+
+In this section of the report, the correlation between categories such as Contract Type ( Monthly, Annually , Bienally), Churn Category,  Gender and Churn Rate. The churn rate for month-to-month contracts is at 46% and 11% for annual contracts. The Churn Category column is made up of the grouped churn reasons discussed earlier in the report. According to the charts, Most of the company's customers have month-to-month contracts. Also, the most common churn category is Competitor, 45% of Databel's churned customers churned because of Databel's competitors. Another interesting point is that the churn rate is slightly higher for female customers that have a month-to-month contract than it is for male customers. On the contrary, reverse is the case on annual contracts as churn rate is higher for male customers.
+
+![](images/Categories.png)
+
 

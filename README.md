@@ -74,8 +74,12 @@ In order to display the trend(if any) betweem Customers, Age and the churn rate.
 
 ### Groups and Categories
 
-In this section of the report, the correlation between categories such as Contract Type ( Monthly, Annually , Bienally), Churn Category,  Gender and Churn Rate. The churn rate for month-to-month contracts is at 46% and 11% for annual contracts. The Churn Category column is made up of the grouped churn reasons discussed earlier in the report. According to the charts, Most of the company's customers have month-to-month contracts. Also, the most common churn category is Competitor, 45% of Databel's churned customers churned because of Databel's competitors. Another interesting point is that the churn rate is slightly higher for female customers that have a month-to-month contract than it is for male customers. On the contrary, reverse is the case on annual contracts as churn rate is higher for male customers.
+Databel offers group contracts to customers from the same household. The advantage for the customer is a discounted rate, while it's a great way for Databel to grow its customer base. In this section of the report, the correlation between categories such as Contract Type ( Monthly, Annually , Bienally), Churn Category,  Gender and Churn Rate. The churn rate for month-to-month contracts is at 46% and 11% for annual contracts. The Churn Category column is made up of the grouped churn reasons discussed earlier in the report. According to the charts, Most of the company's customers have month-to-month contracts. Also, the most common churn category is Competitor, 45% of Databel's churned customers churned because of Databel's competitors. Another interesting point is that the churn rate is slightly higher for female customers that have a month-to-month contract than it is for male customers. On the contrary, reverse is the case on annual contracts as churn rate is higher for male customers.
 
 ![](images/Categories.png)
 
+### Unlimited Plan
 
+Databel has a hypothesis that people who are not on an unlimited data plan are more likely to churn. To investigate this hypothesis, the average GB download for each customer was grouped into 3 categories - less than 5GB, between 5 and 10 GB and more than 10 GB. This helps to discover a trend not only between Churn rate and Unlimited Plan but also the average GB download per customer. According to the chart, customers with unlimted plan in each of the categories have a higher churn rate than those who do not have an unlimited data plan. Hence, disproving Databel's hypothesis.
+
+![](images/Unlimited.png)

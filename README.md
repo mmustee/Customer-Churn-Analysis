@@ -19,11 +19,11 @@ The following are reasons why analysing churn rate is very important for any com
 
 Before analysing the data, it has to be cleaned and structed in order to make sure we derive accurate results.  The dataset was obtained from Datacamp and uploaded on Power Query. There was an option to load the data directly into Power BI but I chose to transform the data first. The following are things I did to prepare the data:
 
-- Remove Duplicates
+- Remove Duplicates:
 There should be at most one customer per row. Multiple rows of the same customer would negatively affect the analysis
-- Remove Errors
+- Remove Errors:
 Wrong Inputs were either rectified or deleted
-- Remove redundant columns
+- Remove redundant columns:
 It is a large dataset with several columns. some of these columns were removed because they have no use in this project and it improves the performance of the report
 - Make sure all columns have the correct data types
 
@@ -72,12 +72,6 @@ In order to display the trend(if any) betweem Customers, Age and the churn rate.
 
 ![](images/Agebins.png)
 
-### Groups and Categories
-
-Databel offers group contracts to customers from the same household. The advantage for the customer is a discounted rate, while it's a great way for Databel to grow its customer base. In this section of the report, the correlation between categories such as Contract Type ( Monthly, Annually , Bienally), Churn Category,  Gender and Churn Rate was explored. The churn rate for month-to-month contracts is at 46% and 11% for annual contracts. The Churn Category column is made up of the grouped churn reasons discussed earlier in the report. According to the charts, Most of the company's customers have month-to-month contracts. Also, the most common churn category is Competitor, 45% of Databel's churned customers churned because of Databel's competitors. Another interesting point is that the churn rate is slightly higher for female customers that have a month-to-month contract than it is for male customers. On the contrary, reverse is the case on annual contracts as churn rate is higher for male customers.
-
-![](images/Categories.png)
-
 ### Unlimited Plan
 
 Databel has a hypothesis that people who are not on an unlimited data plan are more likely to churn. To investigate this hypothesis, the average GB download for each customer was grouped into 3 categories - less than 5GB, between 5 and 10 GB and more than 10 GB. This helps to discover a trend not only between Churn rate and Unlimited Plan but also the average GB download per customer. According to the chart, customers with unlimted plan in each of the categories have a higher churn rate than those who do not have an unlimited data plan. Hence, disproving Databel's hypothesis.
@@ -89,4 +83,16 @@ Databel has a hypothesis that people who are not on an unlimited data plan are m
 The analysis requirement given by Databel includes a request to analyze the international activity of customers and its relationship to churn. They are curious about the behavior of customers who call internationally, and if paying for an international plan influences their loyalty. After creating a table to see if there is a relatioonship between international activity, international plan and churn rate, the churn rate was the highest with customers who pay for an international plan but they hardly use it - An alarming 71%. A quick solution to this problem will be to contact these customers and suggest that they downgrade their plans.
 
 ![](images/International.png)
+
+
+
+### Groups and Categories
+
+Databel offers group contracts to customers from the same household. The advantage for the customer is a discounted rate, while it's a great way for Databel to grow its customer base. In this section of the report, the correlation between categories such as Contract Type ( Monthly, Annually , Bienally), Churn Category,  Gender and Churn Rate was explored. The churn rate for month-to-month contracts is at 46% and 11% for annual contracts. The Churn Category column is made up of the grouped churn reasons discussed earlier in the report. According to the charts, Most of the company's customers have month-to-month contracts. Also, the most common churn category is Competitor, 45% of Databel's churned customers churned because of Databel's competitors. Another interesting point is that the churn rate is slightly higher for female customers that have a month-to-month contract than it is for male customers. On the contrary, reverse is the case on annual contracts as churn rate is higher for male customers.
+
+![](images/Categories.png)
+
+Databel also wants to improve its customer service since there have been some reported issues. The next step was to explore customer-related columns such as payment method, account length and contract type, and how they affect churn rate. From the chart that shows the churn rate by account length, It can be observed that there is a negative correlation between the two axes. The longer the customer's account has existed, the lesser the churn rate. In another chart that displays the different payment methods and their churn rates, Direct Debit is the most commonly used payment by customer, with over half of the customers using this method. However, the churn rate for this payment isn't the highest. Rather, customers who use Paper Check have the highest churn rate (38%)
+
+![](images/Payment.png)
 

@@ -29,12 +29,9 @@ It is a large dataset with several columns. some of these columns were removed b
 
 ![](images/PowerQuery.png)
 
-### Now that the data has been prepared, it was time to save the changes made and explore the data!
+### After the data was prepared, it was time to save the changes made and explore the data!
 
 Despite completing the preparation process, I still wanted to make sure the number of customers were unique. There should only be one distinct customer per row. To do this, I created a measure to calculate the distinct number of customers to compare with another measure that counts the number of customers. i.e Number of Unique Customers = DISTINCTCOUNT('Databel - Data'[Customer ID]). Fortunately, both measures were exactly the same so I was good to go!
-
-## Churn Demographics page
-The first page of the report is the Churn Dempographics page.
 
 ### Calculating Churn Rate
 

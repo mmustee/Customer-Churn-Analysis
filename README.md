@@ -96,3 +96,8 @@ Databel also wants to improve its customer service since there have been some re
 
 ![](images/Payment.png)
 
+### Customer Service Calls
+
+In another attempt to tackle the customer service problem, I sought to discover any correlation between the states with the highest churn rates and the number of customer service calls coming from that state. According to the map chart, not omly does California have the highest churn rate as discussed earlier in this report, it also has the lowest number of customer service calls (44).
+
+![](images/Calls.png)
